@@ -1,0 +1,14 @@
+# Pinned for reproducible deploys (Railway / Docker / VPS)
+# Bump intentionally; do not use bare unpinned names in production.
+
+kurigram==2.1.35
+telethon==1.36.0
+tgcrypto==1.2.5
+python-dotenv==1.0.1
+python-socks[asyncio]==2.5.3
+uvloop==0.21.0; sys_platform != "win32"
+aiohttp==3.11.11
+psutil==6.1.1
+PySocks==1.7.1
+phonenumbers==9.0.2
+opentele==1.15.1
